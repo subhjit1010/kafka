@@ -23,6 +23,10 @@
 			<id>central</id>
 			<url>https://artifactory.gcp.anz/artifactory/maven-central</url>
 		</repository>
+		<repository>
+			<id>eis</id>
+			<url>https://artifactory.gcp.anz:443/artifactory/eis-maven</url>
+		</repository>
 	</repositories>
 
 	<pluginRepositories>
@@ -33,6 +37,10 @@
 		<pluginRepository>
 			<id>central</id>
 			<url>https://artifactory.gcp.anz/artifactory/maven-central</url>
+		</pluginRepository>
+		<pluginRepository>
+			<id>eis</id>
+			<url>https://artifactory.gcp.anz:443/artifactory/eis-maven</url>
 		</pluginRepository>
 	</pluginRepositories>
 	<properties>
@@ -187,6 +195,19 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>eis</id>
+			<name>artifactory-releases</name>
+			<url>https://artifactory.gcp.anz:443/artifactory/eis-maven</url>
+		</repository>
+		<snapshotRepository>
+			<id>eis</id>
+			<name>artifactory-snapshots</name>
+			<url>https://artifactory.gcp.anz:443/artifactory/eis-maven</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
