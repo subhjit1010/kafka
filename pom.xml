@@ -14,7 +14,7 @@
 	<groupId>com.anz.eventmesh.streams</groupId>
 	<artifactId>parent</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.7-SNAPSHOT</version>
 
 	<repositories>
 		<repository>
