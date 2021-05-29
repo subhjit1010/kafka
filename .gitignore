@@ -27,3 +27,6 @@ deploy.sh
 .metals
 .project
 .settings
+
+.idea
+*.iml
