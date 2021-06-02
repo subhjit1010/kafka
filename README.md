@@ -1,5 +1,5 @@
 # event-mesh-streams-framework-parent
-The repository contains the parent pom for streams framework and related streams application
+This repository contains the parent POM for streams framework and related streams applications.
 
 
 # PREQUISITES:
